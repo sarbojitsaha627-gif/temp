@@ -1,0 +1,26 @@
+# ── Core ────────────────────────────────────────────────
+sqlalchemy[asyncio]>=2.0,<2.1
+asyncpg>=0.29,<0.31
+alembic>=1.14,<2.0
+psycopg2-binary>=2.9,<3.0
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2,<3.0
+python-dotenv>=1.0,<2.0
+
+# ── API & UI ────────────────────────────────────────────
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+streamlit>=1.40,<2.0
+
+# ── LangGraph Agent ─────────────────────────────────────
+langgraph>=0.3,<1.0
+langgraph-checkpoint-postgres>=2.0,<3.0
+langchain-openai>=0.3,<1.0
+langchain-core>=0.3,<1.0
+
+# ── Fuzzy Matching ──────────────────────────────────────
+rapidfuzz>=3.9,<4.0
+
+# ── Utilities ───────────────────────────────────────────
+httpx>=0.27,<1.0
+tenacity>=9.0,<10.0
